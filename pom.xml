@@ -42,9 +42,7 @@
     </build>
 
     <scm>
-        <connection>scm:git:https://github.com/AikoN76/sfg-pet-clinic.git</connection>
-        <developerConnection>scm:git:https://github.com/AikoN76/sfg-pet-clinic.git</developerConnection>
-        <url>https://github.com/AikoN76/sfg-pet-clinic</url>
+        <developerConnection>scm:git:git@github.com:AikoN76/sfg-pet-clinic.git</developerConnection>
     </scm>
 
 </project>
