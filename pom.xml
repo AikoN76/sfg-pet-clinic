@@ -55,7 +55,7 @@
 
     <scm>
         <url>https://github.com/AikoN76/sfg-pet-clinic</url>
-        <developerConnection>scm:git:ssh@github.com:AikoN76/sfg-pet-clinic.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:AikoN76/sfg-pet-clinic.git</developerConnection>
         <tag>HEAD</tag>
   </scm>
 
