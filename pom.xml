@@ -43,7 +43,8 @@
 
     <scm>
         <url>https://github.com/AikoN76/sfg-pet-clinic</url>
-        <developerConnection>scm:git:git//github.com:AikoN76/sfg-pet-clinic.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:AikoN76/sfg-pet-clinic.git</developerConnection>
+        <connection>>scm:git:git://github.com/AikoN76/sfg-pet-clinic.git</connection>
         <tag>sfg-pet-clinic-0.0.1</tag>
     </scm>
 
