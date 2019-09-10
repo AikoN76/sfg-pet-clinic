@@ -49,7 +49,7 @@ public class OwnerController {
         }
 
         // find owners by last name
-        List<Owner> results = ownerService.findAllByLastNameLike(owner.getLastName());
+        List<Owner> results = ownerService.findAllByLastNameLike("%" + owner.getLastName() + "%");
 
         if(results.isEmpty()){
             // no owner found
@@ -62,7 +62,7 @@ public class OwnerController {
         } else {
             // multiple owners found
             model.addAttribute("selections", results);
-            return "owners/ownersList";
+            return "owners/ownerList";
         }
     }
 
