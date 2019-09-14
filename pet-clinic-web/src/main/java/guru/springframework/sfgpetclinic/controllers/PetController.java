@@ -20,7 +20,7 @@ public class PetController {
 
     private static final String VIEWS_PETS_CREATE_OR_UPDATE_FORM = "pets/createOrUpdatePetsForm";
     private final PetService petService;
-    private final OwnerService  ownerService;
+    private final OwnerService ownerService;
     private final PetTypeService petTypeService;
 
     public PetController(PetService petService, OwnerService ownerService, PetTypeService petTypeService) {
