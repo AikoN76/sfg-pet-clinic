@@ -69,7 +69,7 @@ public class PetControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(model().attributeExists("owner"))
                 .andExpect(model().attributeExists("pet"))
-                .andExpect(view().name("pets/createOrUpdatePetsForm"));
+                .andExpect(view().name("pets/createOrUpdatePetForm"));
     }
 
     @Test
@@ -94,7 +94,7 @@ public class PetControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(model().attributeExists("owner"))
                 .andExpect(model().attributeExists("pet"))
-                .andExpect(view().name("pets/createOrUpdatePetsForm"));
+                .andExpect(view().name("pets/createOrUpdatePetForm"));
     }
 
     @Test
